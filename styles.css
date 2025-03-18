@@ -8,37 +8,34 @@
             width: 50%;
             margin: 0 auto;
             border-collapse: collapse;
-            text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         thead th {
-            background-color: #a94442;
+            background-color: #8B0000;
             color: white;
             padding: 12px;
-            font-weight: bold;
-        }
-
-        tbody th {
-            background-color: #d9534f;
-            color: white;
-            padding: 10px;
-        }
-
-        td {
-            padding: 10px;
-            border: 1px solid #ccc;
-        }
-
-        tbody tr:nth-child(2) td, tbody tr:nth-child(3) td {
-            background-color: #d9bfbf;
-        }
-
-        tbody tr:nth-child(3) td {
-            background-color: #dcdcdc;
+            border: 1px solid #ddd;
         }
 
         tbody td {
-            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(1) td {
+            background-color: #CD5C5C;
+            color: white;
+        }
+
+        tbody tr:nth-child(2) td {
+            background-color: #DCDCDC;
+            color: black;
+        }
+
+        tbody tr:nth-child(3) td {
+            background-color: #BEBEBE;
+            color: black;
         }
     
