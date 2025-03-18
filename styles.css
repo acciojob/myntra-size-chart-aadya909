@@ -1,2 +1,44 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
 
-/* Your CSS Code here. */
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        thead th {
+            background-color: #a94442;
+            color: white;
+            padding: 12px;
+            font-weight: bold;
+        }
+
+        tbody th {
+            background-color: #d9534f;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        tbody tr:nth-child(2) td, tbody tr:nth-child(3) td {
+            background-color: #d9bfbf;
+        }
+
+        tbody tr:nth-child(3) td {
+            background-color: #dcdcdc;
+        }
+
+        tbody td {
+            font-weight: bold;
+        }
+    
